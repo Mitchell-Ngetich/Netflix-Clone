@@ -29,10 +29,10 @@ function Banner() {
       }}
       >
           <div className="banner__contents">
-          {/* - background image
-          - the title
-           - div for  2 buttons(play and mylist)
-           - Description*/}
+          {/* - background image */}
+          {/* - the title */}
+           {/* - div for  2 buttons(play and mylist) */}
+           {/* - Description*/} 
               <h1 className='banner__title'>
                   {movie?.title || movie?.name || movie?.original_name}
               </h1>
